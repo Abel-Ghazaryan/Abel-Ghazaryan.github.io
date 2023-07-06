@@ -1,0 +1,682 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.headerUl2 li{
+    margin-right: 40px;
+    list-style-type: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.burger{
+    cursor: pointer;
+}
+
+.headerUl2 li a{
+    text-decoration: none;
+    color: white;
+    transition: all .3s;
+}
+
+.headerUl2 li a:hover{
+    color: red;
+}
+.headerUl2 li{
+    padding: 10px;
+}
+.headerUl2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 0px;
+    overflow: hidden;
+    transition:all .5s;
+    margin-top: 50px;
+    gap: 20px;
+    padding-left: 30px;
+}
+
+.show{
+    max-height: 350px;
+}
+
+.redLi{
+    color: red;
+}
+
+.whiteLi{
+    color: white;
+}
+
+.menu img{
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+}
+
+.menu{
+    display: none;
+    justify-content: space-between;
+    position: fixed;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.388);
+}
+
+.headerName{
+    background-color: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;    
+    backdrop-filter: blur(10px);
+    z-index: 10;
+}
+
+.headerH1{
+    color: red;
+    font-size: 50px;
+    margin-left: 40px;
+}
+
+.headerUl li{
+    margin-right: 40px;
+    list-style-type: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.headerUl li a{
+    text-decoration: none;
+    color: white;
+    transition: all .3s;
+}
+
+.headerUl li a:hover{
+    color: red;
+}
+.headerUl{
+    display: flex;
+}
+
+.redLi{
+    color: red;
+}
+
+.whiteLi{
+    color: white;
+}
+
+.headerImg{
+    height: 400px;
+    width: 370px;
+    border-radius: 10%;
+    margin-top:100px ;
+}
+
+.headerDiv{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(54, 47, 47);
+}
+
+.headerText{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hello{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    height: 50px;
+    color: white;
+}
+
+.hello :nth-child(1){
+    background-color: red;
+    width: 70px;
+    height: 40px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15%;
+}
+
+.hello :nth-child(2){
+    font-size: 25px;
+}
+
+.headerText h1{
+    color: white;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.front{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.front :nth-child(1){
+    font-size: 40px;
+    color: white;
+}
+
+.front :nth-child(2){
+    color: red;
+    font-size: 40px;
+}
+
+.artashat{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.artashat :nth-child(1){
+    font-size: 30px;
+    color: red;
+}
+
+.artashat :nth-child(2){
+    color: white;
+    font-size: 30px;
+}
+
+.headerName img{
+    display: none;
+}
+
+.aboutSection{
+    background-color: rgb(54, 47, 47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.imgDiv{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.myDiv{
+    width: 400px;
+    height: 500px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.myDiv p{
+    width: 400px;
+    color: white;
+    font-size: 25px;
+    margin-top: -15px;
+}
+
+.vernagirDiv{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.vernagirDiv :nth-child(1){
+    font-size: 35px;
+    color: white;
+}
+
+.vernagirDiv :nth-child(2){
+    color: red;
+    font-size: 35px;
+}
+
+.skilsDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.skilsDiv :nth-child(1){
+    font-size: 35px;
+}
+
+.skilsDiv :nth-child(2){
+    color: red;
+    font-size: 35px;
+    margin-left:5px;
+}
+
+.skilsSection{
+    background-color: rgb(36, 31, 31);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 600px;
+    gap: 50px;
+    align-items: center;
+}
+
+.web{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(54, 47, 47);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: all .2s;
+    border-radius: 20px;
+}
+
+.web:hover {
+    transform: scale(1.25) translateZ(0);
+    box-shadow: 0px 0px 10px white;
+}
+
+.webDiv:hover > .web:not(:hover){
+    transform: scale(0.9);
+    filter: blur(5px);
+}
+
+.web p{
+    width: 270px;
+}
+
+.web a button{
+    width: 170px;
+    height: 40px;
+    background-color: rgb(44, 41, 41);
+    color:white;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+
+.web a button:hover{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px white;
+}
+
+.webDiv{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.web a button{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    background-color: rgb(44, 41, 41);
+}
+
+.borderBottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+}
+
+.instagram{
+    width: 50px;
+    height: 50px;
+    border-radius: 25%;
+    transition: all .5s;
+}
+
+.instagram:hover{
+    width: 60px;
+    height: 60px;
+}
+
+.telegram{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: all .5s;
+}
+
+.telegram:hover{
+    width: 60px;
+    height: 60px;
+}
+
+.tiktok{
+    width: 50px;
+    height: 50px;
+    border-radius: 25%;
+    transition: all .5s;
+}
+
+.tiktok:hover{
+    width: 60px;
+    height: 60px;
+}
+
+.hr{
+    height: 2px;
+    width: 900px;
+    background-color: rgb(69, 62, 62);
+}
+
+.contactDiv{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.contactDiv :nth-child(1){
+    color: white;
+}
+
+.contactDiv :nth-child(2){
+    color: red;
+}
+
+.site{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    width: 290px;
+}
+
+.call{
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+}
+
+.projectSection{
+    background-color: rgb(54, 47, 47);
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.project{
+    width: 550px;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 15px;
+    transition: all 1s;
+}
+
+.project:hover{
+    transform: scale(1.15);
+}
+
+.projectDiv{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+@media only screen and (max-width:1200px){
+    .project{
+        width: 400px;
+        height: 250px;
+    }
+
+    .project:hover{
+        width: 500px;
+        height: 300px;
+    }
+
+    .project :hover{
+        transform: scale(1.1);
+    }
+}
+
+@media only screen and (max-width:1100px){
+    .headerH1{
+        font-size: 45px;
+        margin-left: 30px;
+    }
+    
+    .headerUl li{
+        margin-right: 30px;
+        font-size: 20px;
+    }
+  
+    .hello{
+        width: 140px;
+        height: 45px;
+    }
+
+    .hello :nth-child(1){
+        width: 65px;
+        height: 37px;
+        font-size: 22px;
+    }
+
+    .hello :nth-child(2){
+        font-size: 22px;
+    }
+
+    .headerText h1{
+        font-size: 45px;
+    }
+
+    .front{
+        width: 350px;
+    }
+
+    .front :nth-child(1){
+        font-size: 35px;
+    }
+
+    .front :nth-child(2){
+        font-size: 35px;
+    }
+
+    .artashat{
+        width: 180px;
+    }
+
+    .artashat :nth-child(1){
+        font-size: 27px;
+    }
+
+    .artashat :nth-child(2){
+        font-size: 27px;
+    }
+
+    .headerImg{
+        height: 370px;
+        width: 320px;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    .webDiv{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-evenly;
+        height: 1200px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .web{
+        width: 280px;
+        height: 310px;
+    }
+
+    .web p{
+        width: 230px;
+    }
+
+    .hr{
+        width: 450px;
+    }
+
+    .projectDiv{
+        flex-direction: column;
+        height: 650px;
+        align-items: center;
+    }
+
+    .projectSection{
+        height: 1950px;
+    }
+
+    .projectDiv2{
+        height: 252px;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .aboutSection{
+        height: 1200px;
+        flex-direction: column;
+    }
+
+    .imgDiv{
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    
+    .myDiv{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .headerName img{
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin-right: 30px;
+    }
+
+    .headerUl{
+        display: none;
+    }
+
+    .front{
+        flex-direction: column;
+        width: 200px;
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (max-width:650px){
+    .headerDiv{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .front{
+        flex-direction: row;
+        width: 400px;
+        align-items: center;
+    }
+
+    .project{
+        width: 350px;
+        height: 230px;
+    }
+
+    .project:hover{
+        width: 400px;
+        height: 270px;
+    }
+
+    .headerText{
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .front{
+        flex-direction: column;
+        width: 200px;
+        align-items: flex-start;
+    }
+
+    .headerImg{
+        height: 340px;
+        width: 280px;
+    }
+
+    .imgDiv{
+        width: 290px;
+        height: 400px;
+    }
+
+    .myDiv{
+        width: 290px;
+    }
+
+    .myDiv p{
+        width: 290px;
+    }
+
+    .aboutSection{
+        height: 1300px;
+    }
+    
+    .hr{
+        width: 280px;
+    }
+
+    .web{
+        width: 240px;
+        height: 270px;
+    }
+
+    .project{
+        width: 270px;
+        height: 190px;
+    }
+
+    .project:hover{
+        width: 290px;
+        height: 220px;
+    }
+
+    .project:hover{
+        transform: scale(1.01);
+    }
+    
+    .projectDiv{
+        height: 550px;
+    }
+
+    .projectDiv2{
+        height: 270px;
+    }
+
+    .projectSection{
+        height: 1700px;
+    }
+}
